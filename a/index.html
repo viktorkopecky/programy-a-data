@@ -1,26 +1,51 @@
 <!DOCTYPE html>
 <html lang="cs">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Programové a datové soubory</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <h1>Programové a datové soubory</h1>
-        <p><a href="../index.html">Úvodní stránka</a></p>
+      <h1>Programové a datové soubory</h1>
+      <p><a href="../index.html">Úvodní stránka</a></p>
     </header>
     <main>
-
+      <h2>Soubory a adresáře</h2>
+      <p>
+        Soubor (file) je množina souvisejících dat uložených na diskové
+        jednotce. Název souboru je obvykle tvořen jménem (ve Windows až 254
+        znaků) a příponou, která naznačuje typ souboru. K dalším vlastnostem
+        souboru patří jeho velikost, autor (vlastník), datum vytvoření, datum
+        změny, atributy, přístupová práva apod.
+      </p>
+      <p>
+        K přehlednější práci se soubory slouží systém adresářů či složek
+        (directories, folders). Adresáře tvoří na disku typicky hierarchickou
+        strukturu (tree - strom); základem je tzv. kořenový adresář (root)
+        označený symbolem „/“ (Unix, Linux), nebo „\“ (Windows). Každý adresář
+        může obsahovat soubory i podadresáře (subdirectories).
+      </p>
+      <p>Cesta (path) vyjadřuje umístění souboru vždy směrem od nejvyššího
+      adresáře: <code>C:\XAMPP\mysql\bin\mysql.exe</code>. Pro operace se soubory využíváme
+      někdy zástupné znaky (wildcards):</p>
+      <ul>
+        <li>symbol <mark>*</mark> nahrazuje v názvu libovolný počet znaků (např. *.*);</li>
+        <li>symbol <mark>?</mark> nahrazuje jeden libovolný znak (např. s?s.txt).</li>
+    </ul>
     </main>
     <footer>
-        <hr>
-        <p>&copy; 2024 - Viktor Kopecký, IT1</p>
-        <p><a href="https://www.sspu-opava.cz" target="_blank"><img src="../img/skola-logo.png" alt="Školní logo"></p>
-        <p><a href="https://www.sspu-opava.cz" target="_blank">Web školy</a></p>
+      <hr />
+      <p>
+        &copy; 2024 - <b>Viktor Kopecký</b>, <b><i>IT1</i></b>
+      </p>
+      <p>
+        <a href="https://www.sspu-opava.cz" target="_blank"
+          ><img src="../img/skola-logo.png" alt="Školní logo"
+        /></a>
+      </p>
+      <p><a href="https://www.sspu-opava.cz" target="_blank">Web školy</a></p>
     </footer>
-</body>
-
+  </body>
 </html>
