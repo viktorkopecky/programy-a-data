@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(50, 50, 50);
+    color: #eeeeee;
+}
+
+a {
+    color: yellow;
+    text-decoration: none;
+}
+
+header, main {
+    background-color: black;
+    width: 60%;
+    margin: 20px auto;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-container > div.block {
+    border: 1px solid #ddd;
+    min-width: 20%;
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+}
+
+@media (max-width: 800px) {
+    header, main {
+        background-color: rgb(27, 27, 27);
+        width: 100%;
+    }
+
+    .flex-container > div.block {
+        background-color: aqua;
+        width: 100%;
+        margin: 10px;
+    }
+}
