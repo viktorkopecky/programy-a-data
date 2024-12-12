@@ -4,6 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Programové a datové soubory</title>
+    <style>
+      h1, h2, h3 {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      h1 {
+        color:brown; 
+        font: size 225%; 
+        text-align: center;
+      }
+      h2 {
+        background-color: blue; 
+        color: white;
+        padding: 20px 0px 10px 100px;
+        border-left: 10px solid rgb(18, 120, 204);
+      }
+      p {
+        text-align: justify;
+        margin-top: 10px;
+      }
+    </style>
   </head>
 
   <body>
@@ -34,6 +54,14 @@
         <li>symbol <mark>*</mark> nahrazuje v názvu libovolný počet znaků (např. *.*);</li>
         <li>symbol <mark>?</mark> nahrazuje jeden libovolný znak (např. s?s.txt).</li>
     </ul>
+    <h2>Programové soubory</h2>
+    <p>Programové soubory obsahují instrukce, podle nichž procesor ve spolupráci s dalšími hardwarovými komponentami plní konkrétní úlohy. Mohou být uloženy v již zkompilované binární podobě (nejčastěji ve strojovém kódu pro danou platformu), nebo ve zdrojovém kódu, obsahujícím příkazy určitého programovacího jazyka. Mezi programové soubory můžeme zařadit také skripty, soubory instrukcí v textové podobě, které ke svému spuštění vyžadují speciální program - interpret.</p>
+    <h3>Programové knihovny</h3>
+    <p>Větší programy jsou tvořeny programovými knihovnami (runtime libraries), speciálními soubory s připravenými funkcemi, které programy využívají pro svůj běh. Ve Windows to jsou např. soubory DRV a SYS (obsahující zejména ovladače čili drivery, ale i systémové funkce), nebo také DLL (dynamic linking library - dynamicky linkované knihovny), které mohou být podle potřeby za běhu (dynamicky) připojeny k jednomu i více programům.</p>
+    <h3>Spustitelné soubory a rezidentní programy</h3>
+    <p>Některé soubory s tzv. spustitelnou příponou (např. .exe a .com ve Windows, .sh v Linuxu) slouží ke spuštění programu - aktivaci procesu v rámci operačního systému. Za rezidentní programy (služby, démony) označujeme ty procesy, které jsou spuštěny automaticky po iniciaci operačního systému (např. antivirové programy).</p>
+    <h2>Datové soubory</h2>
+    <p>Datové soubory obsahují data různého charakteru (číselné, textové, grafické, zvukové údaje). K jejich zpracování se používají konkrétní programy, a proto jsou často přípony těchto datových souborů asociovány (propojeny) s určitou aplikací (např. DOCX s programem MS Word, nebo XLSX s programem MS Excel).</p>
     </main>
     <footer>
       <hr />
