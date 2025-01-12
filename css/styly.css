@@ -1,3 +1,4 @@
+
 body{
     background-color: gray;
 }
@@ -37,10 +38,19 @@ p {
 }
 
 a:hover {
-    background-color: blue;
+    background-color: rgba(80, 92, 159, 0.292);
     color: white;
     text-decoration: none;
 }
+
+/* Style the navbar */
+.topnav {
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
 
 /* Add a black background color to the top navigation */
 .topnav {
@@ -66,6 +76,19 @@ a:hover {
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: #2b3c68;
   color: white;
+}
+
+/*Obrázky*/
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+/*Text s cursivou*/
+.cursive {
+  font-family: helvetica;
+  font-style: italic;
+  font-size: small;
 }

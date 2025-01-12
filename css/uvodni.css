@@ -1,14 +1,14 @@
 /* Nastavení těla stránky*/
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(../img/background1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: gray;
 }
 
 /* Nastavení záhlaví*/
 header {
-    background-color: #222;
+    background-color: #2b2b2b;
     color: white;
     text-align: center;
     text-transform: uppercase;
@@ -25,9 +25,10 @@ header p {
 
 /*Nastavení hlavní části stránky*/
 main {
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.401);
     width: 1200px;
     margin: 20px auto;
+    border: 10px solid #333;
 }
 
 /*Nastavení flexboxu*/
@@ -37,7 +38,7 @@ main {
   }
 
   .flex-container div {
-    background-color: rgba(76, 102, 189, 0.37);
+    background-color: rgba(42, 61, 119, 0.505);
     padding: 20px;
     margin: 20px;
     flex: 25%;
@@ -48,8 +49,12 @@ main {
     main {
         width: 900px;
     }
-}
 
 .flex-container {
     flex-direction: column;
+}
+}
+
+a {
+    color: rgba(0, 0, 0, 0.575);
 }
