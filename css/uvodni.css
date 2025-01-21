@@ -13,24 +13,30 @@ header {
     text-align: center;
     text-transform: uppercase;
     padding: 10px;
-    flex: auto;
+    display: flex;
+    justify-content: center;
 }
 
 header h1 {
     font-size: 3em;
-}
+    display: flex;
+} 
 
 header p {
-    font-size: 2em;
+    font-size: 1em;
+    align-self: self-end;
+    justify-content: center;
+    display: block;
 }
 
 /*Nastavení hlavní části stránky*/
 main {
     background-color: #e7ecef;
-    width: 1250px;
-    height: 550px;
+  /*  width: 1300px; */
+    width: auto;
     margin: 20px auto;
     border: 10px solid #274c77;
+    border-radius: 15px;
 }
 
 /*Nastavení flexboxu*/
@@ -45,6 +51,28 @@ main {
     margin: 20px;
     margin-top: 30px;
     flex: 25%;
+    border-radius: 15px;
+  }
+
+h3 {
+    font-size: 25px;
+}
+
+ul {
+    font-size: 20px;
+}
+
+.zoom {
+    padding: 50px;
+    background-color: green;
+    transition: transform .2s; /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  
+.zoom:hover {
+    transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   }
 
 /*Responzivní design*/
@@ -72,3 +100,5 @@ a:hover {
     padding-left: 10px;
     color: #274c77;
 }
+
+
