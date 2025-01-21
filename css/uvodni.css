@@ -20,20 +20,21 @@ header {
 header h1 {
     font-size: 3em;
     display: flex;
+    float: none;
 } 
 
-header p {
+header h2 {
     font-size: 1em;
-    align-self: self-end;
+    align-self: auto;
     justify-content: center;
-    display: block;
+    display: flex;
+    
 }
 
 /*Nastavení hlavní části stránky*/
 main {
     background-color: #e7ecef;
-  /*  width: 1300px; */
-    width: auto;
+    max-width: 1300px;
     margin: 20px auto;
     border: 10px solid #274c77;
     border-radius: 15px;
@@ -65,21 +66,22 @@ ul {
 .zoom {
     padding: 50px;
     background-color: green;
-    transition: transform .2s; /* Animation */
+    transition: transform .2s; /* Animace */
     width: 200px;
     height: 200px;
     margin: 0 auto;
   }
   
 .zoom:hover {
-    transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transform: scale(1.05); 
   }
 
 /*Responzivní design*/
 @media screen and (max-width: 1200px){
     main {
-        width: 900px;
+        max-width: 900px;
     }
+    .zoom:not()
 
 .flex-container {
     flex-direction: column;
