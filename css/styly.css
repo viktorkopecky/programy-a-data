@@ -39,6 +39,7 @@ h2 {
 p {
     text-align: justify;
     margin-top: 10px;
+    padding: 0px 10px 0px 10px;
 }
 
 a:hover {
@@ -47,7 +48,7 @@ a:hover {
     text-decoration: none;
 }
 
-/* Style the navbar */
+/* Style */
 .topnav {
   position: sticky;
   top: 0;
@@ -56,7 +57,7 @@ a:hover {
 }
 
 
-/* Add a black background color to the top navigation */
+/* Background color to the top navigation */
 .topnav {
   background-color: #3e6381ae;
   overflow-x : auto;
@@ -125,9 +126,10 @@ a:hover {
   font-style: italic;
   font-size: small;
   border-color:#c12121;
-  border-left: 9px, solid, #7833d978;
+  border-left: 15px solid #7833d952;
   color: rgb(0, 0, 0);
-  padding-left: 10px;
+  padding-left: 30px;
+  padding-right: 30px; 
 }
 
 /*Odkazy*/
@@ -141,9 +143,9 @@ a:hover {
 }
 
 .hr {
-  color: black;
-  padding-left: 10px;
-  padding-right: 10px;
+  color: rgb(255, 255, 255);
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 /*
