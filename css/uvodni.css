@@ -13,22 +13,14 @@ header {
     text-align: center;
     text-transform: uppercase;
     padding: 10px;
-    display: flex;
-    justify-content: center;
 }
 
 header h1 {
     font-size: 3em;
-    display: flex;
-    float: none;
 } 
 
 header p {
     font-size: 1em;
-    align-self: auto;
-    justify-content: center;
-    display: flex;
-    
 }
 
 /*Nastavení hlavní části stránky*/
@@ -96,6 +88,12 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+/*
+.line:hover {
+    text-decoration: none;
+}
+*/
 
 /*padding*/
 .pad {
