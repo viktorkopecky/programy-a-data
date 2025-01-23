@@ -32,6 +32,10 @@ main {
     border-radius: 15px;
 }
 
+footer {
+    background-color: #779fc189;
+}
+
 /*Nastavení flexboxu*/
 .flex-container {
     display: flex;
@@ -102,8 +106,22 @@ a:hover {
 }
 
 hr {
-    color: white;
-    padding-left: 30px;
-    padding-right: 30px;
+    border: 10px;
+    color: #779fc189;
 }
 
+/*Pozice*/
+
+.left {
+    display: block;
+    margin-left: 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+    padding-right: 10px;
+}

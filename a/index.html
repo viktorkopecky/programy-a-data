@@ -41,6 +41,10 @@
         označený symbolem „/“ (Unix, Linux), nebo „\“ (Windows). Každý adresář
         může obsahovat soubory i <b>podadresáře</b> <i>(subdirectories)</i>.
       </p>
+      <figure>
+        <img src="../img/linuxtree.jpg" alt="Linux tree" width="100%" class="responsive">
+        <figcaption>Adresářová struktura Linuxu</figcaption>
+      </figure>
       <p>
         <b>Cesta</b> <i>(path)</i> vyjadřuje umístění souboru vždy směrem od nejvyššího
         adresáře: <code>C:\XAMPP\mysql\bin\mysql.exe</code>. Pro operace se soubory využíváme
@@ -52,43 +56,50 @@
     </ul>
     <h2 id="programove-soubory">Programové soubory</h2>
     <p>
-      <b>Programové soubory</b> obsahují instrukce, podle nichž procesor ve spolupráci s dalšími hardwarovými komponentami plní konkrétní úlohy. 
-      Mohou být uloženy v již zkompilované binární podobě (nejčastěji ve <b>strojovém kódu</b> pro danou platformu), nebo ve <b>zdrojovém kódu</b>, 
-      obsahujícím příkazy určitého programovacího jazyka. Mezi programové soubory můžeme zařadit také <b>skripty</b>, soubory instrukcí v textové podobě, 
+      <b>Programové soubory</b> obsahují instrukce, 
+      podle nichž procesor ve spolupráci s dalšími hardwarovými komponentami plní konkrétní úlohy. 
+      Mohou být uloženy v již zkompilované binární podobě (nejčastěji ve <b>strojovém kódu</b> pro danou platformu), 
+      nebo ve <b>zdrojovém kódu</b>, 
+      obsahujícím příkazy určitého programovacího jazyka. Mezi programové soubory můžeme zařadit také <b>skripty</b>, 
+      soubory instrukcí v textové podobě, 
       které ke svému spuštění vyžadují speciální program - <b>interpret</b>.
     </p>
     <h3>Programové knihovny</h3>
     <p>
-      Větší programy jsou tvořeny <b>programovými knihovnami</b> <i>(runtime libraries)</i>, speciálními soubory s připravenými funkcemi, které programy využívají pro svůj běh. 
-      Ve Windows to jsou např. soubory <i>DRV</i> a <i>SYS</i> (obsahující zejména ovladače čili drivery, ale i systémové funkce), 
-      nebo také <b>DLL</b> <i>(dynamic linking library - dynamicky linkované knihovny)</i>, které mohou být podle potřeby za běhu (dynamicky) připojeny k jednomu i více programům.
+      Větší programy jsou tvořeny <b>programovými knihovnami</b> <i>(runtime libraries)</i>, 
+      speciálními soubory s připravenými funkcemi, 
+      které programy využívají pro svůj běh. 
+      Ve Windows to jsou např. soubory <i>DRV</i> a <i>SYS</i> 
+      (obsahující zejména ovladače čili drivery, ale i systémové funkce), 
+      nebo také <b>DLL</b> <i>(dynamic linking library - dynamicky linkované knihovny)</i>, 
+      které mohou být podle potřeby za běhu (dynamicky) připojeny k jednomu i více programům.
     </p>
     <h3>Spustitelné soubory a rezidentní programy</h3>
     <p>
-      Některé soubory s tzv. <b>spustitelnou příponou</b> (např. .exe a .com ve Windows, .sh v <a href="https://cs.wikipedia.org/wiki/Linux" target="_blank">Linuxu</a> ) 
-      slouží ke spuštění programu - aktivaci procesu v rámci operačního systému. Za <b>rezidentní programy</b> (služby, démony) označujeme ty procesy, 
+      Některé soubory s tzv. <b>spustitelnou příponou</b> (např. .exe a .com ve Windows, .sh v 
+      <a href="https://cs.wikipedia.org/wiki/Linux" target="_blank">Linuxu</a> ) 
+      slouží ke spuštění programu - aktivaci procesu v rámci operačního systému. Za <b>rezidentní programy</b> 
+      (služby, démony) označujeme ty procesy, 
       které jsou spuštěny automaticky po iniciaci operačního systému (např. antivirové programy).
     </p>
     <h2 id="datove-soubory">Datové soubory</h2>
     <p>
-      <b>Datové soubory</b> obsahují data různého charakteru (číselné, textové, grafické, zvukové údaje). K jejich zpracování se používají konkrétní programy, 
-      a proto jsou často přípony těchto datových souborů asociovány (propojeny) s určitou aplikací (např. DOCX s programem MS Word, nebo XLSX s programem MS Excel).
+      <b>Datové soubory</b> obsahují data různého charakteru (číselné, textové, grafické, zvukové údaje). 
+      K jejich zpracování se používají konkrétní programy, 
+      a proto jsou často přípony těchto datových souborů asociovány (propojeny) s určitou aplikací 
+      (např. DOCX s programem MS Word, nebo XLSX s programem MS Excel).
     </p>
-    <figure>
-      <img src="../img/licence.svg" alt="Softwarové licence" width="100%" class="responsive">
-      <figcaption>Myšlenková mapa: Softwarové licence</figcaption>
-    </figure>
     </main>
     <footer>
-      <hr class="hr"/>
-      <p>
+      <hr>
+      <p class="center">
         &copy; 2024 - <b>Viktor Kopecký</b>, <b><i>IT1</i></b>
       </p>
       <p>
         <a href="https://www.sspu-opava.cz" target="_blank"
-          ><img src="../img/skola-logo.png" alt="Školní logo"></a>
+          ><img class="left" src="../img/skola-logo.png" alt="Školní logo"></a>
       </p>
-      <p><a href="https://www.sspu-opava.cz" target="_blank">Web školy</a></p>
+      <p class="right"><a href="https://www.sspu-opava.cz" target="_blank">Web školy</a></p>
     </footer>
   </body>
 </html>
