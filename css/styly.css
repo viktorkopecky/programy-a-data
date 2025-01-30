@@ -41,12 +41,6 @@ p {
     padding: 0px 10px 0px 10px;
 }
 
-a:hover {
-    background-color: rgba(80, 92, 159, 0.292);
-    color: white;
-    text-decoration: none;
-}
-
 /* Style */
 .topnav {
   position: sticky;
@@ -121,9 +115,15 @@ a:hover {
 }
 
 img {
-  max-width: 40%;
+  max-width: 50%;
   display: block;
   margin: auto;
+}
+
+@media screen and (max-width: 900px) {
+  img {
+    max-width: 100%;
+  }
 }
 
 figcaption {
@@ -149,6 +149,8 @@ a {
 }
 
 a:hover {
+  background-color: rgba(80, 92, 159, 0.292);
+  color: white;
   text-decoration: underline;
 }
 
@@ -228,19 +230,8 @@ footer {
   background-color: #779fc189;
 }
 
-.left {
-  display: block;
-  margin-left: 1px;
-  margin-top: 1px;
-}
-
 .center {
   text-align: center;
-}
-
-.right {
-  text-align: right;
-  padding-right: 10px;
 }
 
 hr {
